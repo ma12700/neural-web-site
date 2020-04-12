@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="en">
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <title>Neural Network Project</title>
+    </head>
+    <body>
+        <div class="back">
+            <header>
+                <hgroup>
+                    <h1>Neural Network Project</h1>
+                <h2>calculate your Neural Network  problems fast with our app</h2>
+                </hgroup>
+            </header>
+            <div class="empty"></div>
+        </div>
+        <div class="front">
+            <figure>
+                <img src="assets/question.jpg">
+            </figure>
+            <section>
+                <form>
+                        
+                    <article>
+                        <label>What is the type of network?</label>
+                        <input type="radio" name="type" value="Perceptron" checked>Perceptron
+                        <input type="radio" name="type" value="Hamming">Hamming
+                        <input type="radio" name="type" value="Hebbian">Hebbian
+                        <input type="radio" name="type" value="Pseudoinverse">Pseudoinverse
+                     </article>
+                    
+                    <article>
+                        <label>What is the number of prototypes?</label>
+                        <input type="number" name="P" min="2" step="1" value="2">
+                    </article>
+                    
+                    <article>
+                        <label>What is the number of elements in each prototype (R)?</label>
+                        <input type="number" name="R" min="2" step="1" value="2">
+                    </article>
+                    
+                    <article>
+                        <label>Which Pattern of input will use?</label>
+                        <input type="radio" name="pattern" value="01" checked>(0 | 1)
+                        <input type="radio" name="pattern" value="-11">(-1 | 1)
+                    </article>
+                    
+                    <button type="submit" value="next">next</button>
+                    
+                </form>
+            </section>
+        </div>
+    </body>
+</html>

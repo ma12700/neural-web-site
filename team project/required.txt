@@ -1,0 +1,20 @@
+inputs : P - R - S - W - b - F
+output : diagram - learning steps - test other inputs
+
+question : 
+	1- what is the number of targets
+	2- what is the number of prototypes
+	3- what is the number of elements in each prototype (R)
+	4- are you want to add target?
+	4- Is there intial weight? if yes get it
+	5- Is the bias is required? if yes is there intial bias if yes get it
+	6- are you will use (0|1) patterns or (-1|1) pattern for inputs
+	
+
+
+
+information : 
+	1- perceptron is one layer only and may not get the solution example XOR gate draw it to understand
+	2- hamming is two layer and has the standard way to get weight and bias in each layer
+	3- hepp (be care when we want to use hepp or pseudoinverse to get the perceptron if we have bias)
+	4- backpropagation let to tomorrow
